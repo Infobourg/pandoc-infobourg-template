@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  a {
+    color: #0B83E3;
+  }
+
+  a:visited {
+    color: #053963;
+  }
+
+  h1:first-of-type::before {
+    content: " ";
+    width: 4cm;
+    height: 4cm;
+    display: block;
+    float: left;
+    margin-right: 10mm;
+    background-image: url('/.pandoc/templates/logo.png');
+    background-size: contain;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+    font-size: 2em;
+    break-before: always;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .attachments {
+    display: none;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+  }
+  thead {
+    font-weight: bold;
+    border: 1px solid #CCC;
+  }
+  td.section {
+    font-weight: bold;
+  }
+  td.total {
+    font-weight: bold;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+
+  @page { 
+    @top-left {
+      content: " ";
+      width: 1cm;
+      height: 1cm;
+      background-image: url('/.pandoc/templates/logo.png');
+      background-size: contain;
+    }
+  }
+
+  @page :first {
+    @top-left {
+      content: "";
+      background-image: none;
+    }
+  }
