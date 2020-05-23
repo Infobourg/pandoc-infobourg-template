@@ -76,3 +76,17 @@ td.total {
     background-image: none;
   }
 }
+
+#signatories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.signatory {
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 33.333333%;
+}
