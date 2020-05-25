@@ -30,8 +30,13 @@ h1 {
   break-before: always;
 }
 
+h2 {
+  margin-bottom: 0.5em;
+}
+
 p {
-  margin-bottom: 1rem;
+  margin-top: 0em;
+  margin-bottom: 1em;
 }
 
 .attachments {
@@ -89,4 +94,6 @@ td.total {
   text-align: center;
   flex-grow: 1;
   flex-basis: 33.333333%;
+  margin-bottom: 1em;
+  margin-top: 0em;
 }
